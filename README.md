@@ -29,7 +29,7 @@ First of all you will need support of GPIO. For that install WiringPI library:
     wget http://download.savannah.gnu.org/releases/avrdude/avrdude-6.1.tar.gz
     tar xvfz avrdude-6.1.tar.gz
     cd avrdude-6.1
-    ./configure --enable-linuxgpiosupport
+    ./configure --enable-linuxgpio
     make
     sudo make install
   
