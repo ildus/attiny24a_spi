@@ -9,8 +9,8 @@ Instruction for bananian. You should use `bpi` branch. It contains correct Makef
 
 First of all you will need support of GPIO. For that install WiringPI library:
 
-    git clone https://github.com/LeMaker/WiringBP -b bananapi
-    cd WiringBP/
+    git clone https://github.com/BPI-SINOVOIP/BPI-WiringPi.git -b BPI_M1_M1Plus    
+    cd BPI-WiringPi
     sudo chmod +x ./build
     sudo ./build
   
